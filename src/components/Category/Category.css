@@ -1,0 +1,71 @@
+.category {
+    margin: 0 2vw 2vh 0;
+    font-family: "Baloo da 2", serif;
+    font-size: 160%;
+    letter-spacing: 0.3vh;
+    color: #fff;
+    grid-column: 2 / -1;
+    grid-row: 6 / -1;
+    justify-content: space-between;
+  }
+  
+  .category-content {
+    font-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  .percent {
+    font-size: 160%;
+  }
+
+  .red {
+    color: #ff716e;
+  }
+
+  .green {
+    color: #77c987;
+  }
+
+  @media (max-width: 700px) {
+    .category {
+      font-size: 160%;
+      margin-bottom: 4vh;
+      letter-spacing: 0.2vh;
+    }
+    .category-content {
+      font-size: 80%;
+    }
+    .percent {
+      font-size: 160%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .category {
+      font-size: 150%;
+      margin-bottom: 4vh;
+      letter-spacing: 0.2vh;
+    }
+    .category-content {
+      font-size: 70%;
+    }
+    .percent {
+      font-size: 150%;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .category {
+      font-size: 140%;
+    }
+    .category-content {
+      font-size: 60%;
+    }
+    .percent {
+      font-size: 140%;
+    }
+  }
+  

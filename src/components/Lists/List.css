@@ -1,0 +1,56 @@
+.transactions h2 {
+    font-family: "Baloo da 2", serif;
+    font-size: 175%;
+    letter-spacing: 0.1vh;
+    font-weight: 300;
+    margin-bottom: 1vh;
+}
+
+.transactions-expense {
+    grid-column: 3 / -1;
+    grid-row: 4 / -1;
+}
+
+.transactions-income {
+    grid-column: 2 / 3;
+    grid-row: 4 / -1;
+}
+
+.transactions-income .transaction {
+    background-color: #5a9b67;
+}
+  
+.transaction-list {
+    width: 92%;
+    max-height: 15vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.transactions-expense .transaction {
+    background-color: #cf5856;
+}
+
+@media (max-width: 700px) {
+    .transaction-list {
+        max-height: 12vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .transactions h2 {
+        font-size: 160%;
+    }
+    .transaction-list {
+        width: 90%;
+    }
+}
+
+@media (max-width: 300px) {
+    .transactions h2 {
+        font-size: 100%;
+    }
+    .transaction-list {
+        width: 90%;
+    }
+}

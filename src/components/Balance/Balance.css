@@ -1,0 +1,94 @@
+.balance {
+    grid-column: 1 / 1;
+    grid-row: 3 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    margin: 2vh;
+    text-align: center;
+  }
+  
+  .balance h2 {
+    font-family: "Baloo Da 2", serif;
+    font-size: 190%;
+    font-weight: 300;
+    text-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.4);
+  }
+  
+  .balance h3 {
+    font-family: "Baloo Da 2", serif;
+    font-size: 185%;
+    font-weight: 300;
+    text-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.4);
+  }
+
+  .income-expense {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    font-family: "Muli", serif;
+    text-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.4);
+    text-align: right;
+  }
+  
+  .plus,
+  .minus {
+    margin: 1vh 2vw 0 0;
+  }
+  
+  .plus {
+    color: #77c987;
+  }
+  
+  .minus {
+    color: #ff716e;
+  }
+  
+  .income-expense h3 {
+    font-size: 175%;
+    font-weight: 300;
+    margin-bottom: 1vh;
+    width: 100%;
+  }
+  
+  .income-expense p {
+    font-size: 150%;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  @media (max-width: 500px) {
+    .balance h2 {
+      font-size: 120%;
+    }
+    .balance h3 {
+      font-size: 115%
+    }
+    .income-expense h3 {
+      font-size: 105%;
+    }
+    .income-expense p {
+      font-size: 70%;
+    }
+    .income-expense {
+      flex-direction: column;
+      text-align: center;
+      margin: 2vh;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .balance h2 {
+      font-size: 100%;
+    }
+    .balance h3 {
+      font-size: 95%;
+    }
+    .income-expense h3 {
+      font-size: 85%;
+    }
+    .income-expense p {
+      font-size: 65%;
+    }
+  }

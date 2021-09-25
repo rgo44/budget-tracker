@@ -1,0 +1,32 @@
+.header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    padding: 2vh;
+    font-size: 200%
+  }
+  
+  .header h1 {
+    font-family: "Muli", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2vh;
+    color: #f46036;
+    text-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media (max-width: 500px) {
+    .header {
+      font-size: 120%;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .header {
+      font-size: 100%;
+    }
+  }
